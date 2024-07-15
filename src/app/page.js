@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import Template from "./template";
 
 export default function Home() {
   return (
@@ -117,6 +120,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <Template />
     </main>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import Template from "../template";
 
 export default function Details() {
   const router = useRouter();
@@ -78,6 +79,7 @@ export default function Details() {
           </div>
         </div>
       </div>
+      <Template />
     </main>
   );
 }
