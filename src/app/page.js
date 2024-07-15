@@ -117,15 +117,6 @@ export default function Home() {
           </Link>
         </div>
       </div>
-
-      <easy-speech right="130px"></easy-speech>
-      <translation-select
-        selectui="minimal"
-        bottom="50px"
-        right="15px"
-        height="55px"
-        borderthickness="1px"
-      ></translation-select>
     </main>
   );
 }
