@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="p-6 mt-4">
           <h1 className="text-2xl font-semibold mb-4">
-            View / Terminate GIRO arrangements
+            View / Terminate GIRO arrangements 2nd deployment
           </h1>
           <p className="text-sm text-gray-600 mb-6">
             Unsuccessful/Terminated GIRO arrangements will only be shown on
