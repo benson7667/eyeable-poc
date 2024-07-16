@@ -2,9 +2,9 @@
 
 export default function Template({ children }) {
   return (
-    <div className="absolute">
+    <div>
       {children}
-      <easy-speech right="130px" />
+      {/* <easy-speech right="130px" />
       <translation-select
         langs="en-GB,de,fr,zh"
         selectui="minimal"
@@ -12,7 +12,7 @@ export default function Template({ children }) {
         right="15px"
         height="55px"
         borderthickness="1px"
-      />
+      /> */}
     </div>
   );
 }
